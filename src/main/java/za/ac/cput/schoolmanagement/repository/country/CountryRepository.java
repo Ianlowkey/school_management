@@ -7,12 +7,7 @@ package za.ac.cput.schoolmanagement.repository.country;
  Due date: 18 June 2022
  */
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import za.ac.cput.schoolmanagement.domain.Country;
 
-import java.util.List;
-
-public interface CountryRepository extends JpaRepository<Country, String> {
-    List<Country> findAll();
+public interface CountryRepository  {
 
 }
