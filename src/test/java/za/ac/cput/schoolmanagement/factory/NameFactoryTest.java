@@ -9,7 +9,8 @@ package za.ac.cput.schoolmanagement.factory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import za.ac.cput.schoolmanagement.domain.Name;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
+import za.ac.cput.schoolmanagement.factory.lookup.NameFactory;
 
 import java.time.Duration;
 

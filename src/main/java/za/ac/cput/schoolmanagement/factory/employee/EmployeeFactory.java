@@ -8,7 +8,7 @@ package za.ac.cput.schoolmanagement.factory.employee;
  */
 
 import za.ac.cput.schoolmanagement.domain.employee.Employee;
-import za.ac.cput.schoolmanagement.domain.Name;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.helper.Helper;
 
 public class EmployeeFactory {

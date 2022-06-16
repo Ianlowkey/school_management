@@ -1,10 +1,18 @@
-package za.ac.cput.schoolmanagement.service.name.impl;
+package za.ac.cput.schoolmanagement.service.name;
+
+/*
+ @Author: Vuyisa Nkangana
+ This is Name Service Test case
+ Student number : 218192215
+ Due date: 18 June 2022
+ */
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import za.ac.cput.schoolmanagement.domain.Name;
-import za.ac.cput.schoolmanagement.service.name.NameService;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
+import za.ac.cput.schoolmanagement.service.lookup.NameService;
+
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;

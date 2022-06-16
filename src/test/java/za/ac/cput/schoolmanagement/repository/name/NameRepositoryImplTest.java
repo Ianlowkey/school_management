@@ -1,9 +1,16 @@
-package za.ac.cput.schoolmanagement.repository.name.impl;
+package za.ac.cput.schoolmanagement.repository.name;
+
+/*
+ @Author: Vuyisa Nkangana
+ This is Name Repository Test case
+ Student number : 218192215
+ Due date: 18 June 2022
+ */
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import za.ac.cput.schoolmanagement.domain.Name;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.repository.lookup.NameRepository;
 import java.util.List;
 import java.util.Optional;

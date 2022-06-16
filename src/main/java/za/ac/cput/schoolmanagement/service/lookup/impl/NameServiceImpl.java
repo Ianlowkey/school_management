@@ -4,12 +4,18 @@
    Student No: 218192215
    Due Date: 18 June 2022
  */
-package za.ac.cput.schoolmanagement.service.name.impl;
+package za.ac.cput.schoolmanagement.service.lookup.impl;
+/*
+ @Author: Vuyisa Nkangana
+ This is Name Service
+ Student number : 218192215
+ Due date: 18 June 2022
+ */
 
 import org.springframework.beans.factory.annotation.Autowired;
-import za.ac.cput.schoolmanagement.domain.Name;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.repository.lookup.NameRepository;
-import za.ac.cput.schoolmanagement.service.name.NameService;
+import za.ac.cput.schoolmanagement.service.lookup.NameService;
 
 import java.util.List;
 import java.util.Optional;

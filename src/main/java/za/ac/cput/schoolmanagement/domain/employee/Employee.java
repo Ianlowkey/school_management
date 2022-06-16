@@ -7,7 +7,7 @@ package za.ac.cput.schoolmanagement.domain.employee;
     Date: 9 June 2022
  */
 
-import za.ac.cput.schoolmanagement.domain.Name;
+import za.ac.cput.schoolmanagement.domain.lookup.Name;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;

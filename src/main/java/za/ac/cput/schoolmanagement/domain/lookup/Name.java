@@ -1,5 +1,10 @@
-package za.ac.cput.schoolmanagement.domain;
-
+package za.ac.cput.schoolmanagement.domain.lookup;
+/*
+ @Author: Vuyisa Nkangana
+ This is a Name class
+ Student number : 218192215
+ Due date: 18 June 2022
+ */
 public class Name {
     private String firstName;
     private String middleName;
