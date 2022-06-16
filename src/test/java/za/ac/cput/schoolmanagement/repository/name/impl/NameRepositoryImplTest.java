@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import za.ac.cput.schoolmanagement.domain.Name;
-import za.ac.cput.schoolmanagement.repository.name.NameRepository;
+import za.ac.cput.schoolmanagement.repository.lookup.NameRepository;
 import java.util.List;
 import java.util.Optional;
 

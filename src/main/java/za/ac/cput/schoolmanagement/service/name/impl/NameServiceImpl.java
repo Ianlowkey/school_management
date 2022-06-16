@@ -8,7 +8,7 @@ package za.ac.cput.schoolmanagement.service.name.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import za.ac.cput.schoolmanagement.domain.Name;
-import za.ac.cput.schoolmanagement.repository.name.NameRepository;
+import za.ac.cput.schoolmanagement.repository.lookup.NameRepository;
 import za.ac.cput.schoolmanagement.service.name.NameService;
 
 import java.util.List;
