@@ -1,9 +1,4 @@
-/* NameRepository.java
-   This is a Name Service class
-   Author: Vuyisa Nkangana
-   Student No: 218192215
-   Due Date: 18 June 2022
- */
+
 package za.ac.cput.schoolmanagement.service.lookup.impl;
 /*
  @Author: Vuyisa Nkangana
@@ -13,6 +8,7 @@ package za.ac.cput.schoolmanagement.service.lookup.impl;
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.repository.lookup.NameRepository;
 import za.ac.cput.schoolmanagement.service.lookup.NameService;
@@ -21,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-
+@Service
 public class NameServiceImpl implements NameService {
     private final NameRepository repository;
     @Autowired
