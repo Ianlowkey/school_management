@@ -1,19 +1,26 @@
 package za.ac.cput.schoolmanagement.domain.lookup;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.io.Serializable;
+
 /*
  @Author: Vuyisa Nkangana
  This is a Name class
  Student number : 218192215
  Due date: 18 June 2022
  */
-public class Name {
+@Entity
+public class Name implements Serializable {
+    @Id
     private String firstName;
     private String middleName;
     private String lastName;
 
-    private Name(){
+    public Name(){
 
     }
-    private Name(Name.Builder builder){
+    private Name(Builder builder){
         this.firstName = builder.firstName;
         this.middleName = builder.middleName;
         this.lastName = builder.lastName;
