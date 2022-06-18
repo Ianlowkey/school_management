@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import za.ac.cput.schoolmanagement.domain.employee.Employee;
-import za.ac.cput.schoolmanagement.domain.lookup.Name;
+import za.ac.cput.schoolmanagement.domain.Name;
 
 import java.util.List;
 import java.util.Optional;
