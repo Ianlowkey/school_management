@@ -64,5 +64,4 @@ class NameRepositoryImplTest {
         List<Name> getAll = repository.findAll();
         assertEquals(1, getAll.size());
     }
-
 }

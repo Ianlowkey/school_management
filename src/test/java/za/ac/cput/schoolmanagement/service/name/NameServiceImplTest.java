@@ -16,7 +16,6 @@ import za.ac.cput.schoolmanagement.service.lookup.NameService;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 class NameServiceImplTest {
     private final Name name = new Name.Builder()
             .setFirstName("Vuyisa")
@@ -57,6 +56,5 @@ class NameServiceImplTest {
     void delete() {
 
     }
-
 
 }

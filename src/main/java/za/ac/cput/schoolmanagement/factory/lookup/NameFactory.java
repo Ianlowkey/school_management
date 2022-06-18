@@ -3,9 +3,10 @@ package za.ac.cput.schoolmanagement.factory.lookup;
 /*
  @Author: Vuyisa Nkangana
  This is Name Factory
- Student number : 218192215
+ Student number: 218192215
  Due date: 18 June 2022
  */
+
 import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.helper.Helper;
 

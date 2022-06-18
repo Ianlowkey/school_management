@@ -7,9 +7,10 @@ import java.io.Serializable;
 /*
  @Author: Vuyisa Nkangana
  This is a Name class
- Student number : 218192215
+ Student number: 218192215
  Due date: 18 June 2022
  */
+
 @Entity
 public class Name implements Serializable {
     @Id

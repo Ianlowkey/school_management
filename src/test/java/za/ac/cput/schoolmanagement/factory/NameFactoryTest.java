@@ -13,7 +13,6 @@ import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.factory.lookup.NameFactory;
 
 import java.time.Duration;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class NameFactoryTest {

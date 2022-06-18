@@ -3,7 +3,7 @@ package za.ac.cput.schoolmanagement.repository.lookup;
 /*
  @Author: Vuyisa Nkangana
  This is Name Repository interface
- Student number : 218192215
+ Student number: 218192215
  Due date: 18 June 2022
  */
 

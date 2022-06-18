@@ -3,7 +3,7 @@ package za.ac.cput.schoolmanagement.service.lookup.impl;
 /*
  @Author: Vuyisa Nkangana
  This is Name Service
- Student number : 218192215
+ Student number: 218192215
  Due date: 18 June 2022
  */
 
@@ -15,7 +15,6 @@ import za.ac.cput.schoolmanagement.service.lookup.NameService;
 
 import java.util.List;
 import java.util.Optional;
-
 
 @Service
 public class NameServiceImpl implements NameService {
