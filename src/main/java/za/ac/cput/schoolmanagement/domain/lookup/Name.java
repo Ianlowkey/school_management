@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+
 /*
  @Author: Vuyisa Nkangana
  This is a Name class

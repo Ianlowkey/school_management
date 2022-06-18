@@ -6,6 +6,7 @@ package za.ac.cput.schoolmanagement.factory;
   Due Date: 18 June 2022
  */
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -14,6 +15,7 @@ import za.ac.cput.schoolmanagement.factory.lookup.NameFactory;
 
 import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
+
 
 class NameFactoryTest {
     private Name name1;

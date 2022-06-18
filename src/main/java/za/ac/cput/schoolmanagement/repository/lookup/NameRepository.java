@@ -7,6 +7,7 @@ package za.ac.cput.schoolmanagement.repository.lookup;
  Due date: 18 June 2022
  */
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import za.ac.cput.schoolmanagement.domain.lookup.Name;

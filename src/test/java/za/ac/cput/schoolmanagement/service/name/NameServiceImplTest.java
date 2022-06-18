@@ -7,6 +7,7 @@ package za.ac.cput.schoolmanagement.service.name;
  Due date: 18 June 2022
  */
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +15,8 @@ import za.ac.cput.schoolmanagement.domain.lookup.Name;
 import za.ac.cput.schoolmanagement.service.lookup.NameService;
 
 import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.*;
+
 class NameServiceImplTest {
     private final Name name = new Name.Builder()
             .setFirstName("Vuyisa")
