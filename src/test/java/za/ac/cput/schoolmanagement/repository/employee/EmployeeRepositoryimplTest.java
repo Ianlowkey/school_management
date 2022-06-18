@@ -4,6 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import za.ac.cput.schoolmanagement.domain.employee.Employee;
+import za.ac.cput.schoolmanagement.factory.employee.EmployeeFactory;
 import za.ac.cput.schoolmanagement.domain.lookup.Name;
 
 import java.util.List;
