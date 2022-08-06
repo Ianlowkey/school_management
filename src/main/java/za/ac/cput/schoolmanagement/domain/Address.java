@@ -3,36 +3,37 @@ package za.ac.cput.schoolmanagement.domain;
 /*
     Student: Bongisa Mpahleni
     Student Number: 216205999
-    Class for Address entity.
+    Class for Address .
     Date: 9 June 2022
  */
 
 import za.ac.cput.schoolmanagement.domain.lookup.City;
 
 import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import java.io.Serializable;
 import java.util.Objects;
+import javax.persistence.ManyToOne;
+import javax.persistence.Embeddable;
 
-@Entity
-public class Address implements Serializable  {
+@Embeddable
+public class Address implements ValueObject  {
 
-@Id
     private String unitNumber;
 
     private String complexName;
+
     private String streetNumber;
+
     private String streetName;
+
     private int postalCode;
-    @ManyToOne(targetEntity = City.class, cascade = CascadeType.ALL)
+
+    @ManyToOne(cascade = CascadeType.ALL)
     private City city;
 
-    public Address() {
+    protected Address() {
     }
 
-    public Address(Builder builder) {
+    private Address(Builder builder) {
         this.unitNumber= unitNumber;
         this.complexName = complexName;
         this.streetNumber = streetNumber;
